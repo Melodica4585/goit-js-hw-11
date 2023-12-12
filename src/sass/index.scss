@@ -12,13 +12,14 @@
   
   .gallery {
     display: grid;
-    max-width: 1140px;
+    max-width: 1160px;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     grid-auto-rows: 420px;
     grid-gap: 12px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
   }
   
   .photo-card {
@@ -30,6 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
   }
   
   .gallery__image:hover {
@@ -60,12 +62,11 @@
   }
 
   .search-form {
-    max-width: 2000px;
-    background-color: #cb2a2a ;    
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 1160px;
+    background-color: rgb(161, 31, 63) ;    
+    padding: 25px;
     text-align: center;
-    position: sticky;
+    margin: 0 auto;
   }
 
   input, button {
